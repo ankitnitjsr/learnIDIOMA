@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="signUp.css">
+</head>
+
+<body>
+
+    <form action="http://127.0.0.1:3000/signIn.html">
+        <h1>Sign Up </h1>
+        <input type="text" placeholder="Username" name="name" required>
+        <input type="email" placeholder="Email" value="" required>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01">
+                <b>Language</b>
+            </label>
+            <select class="form-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="1">English</option>
+                <option value="2">Hindi</option>
+                <option value="3">Spanish</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect02">
+                <b>Time Slot</b>
+            </label>
+            <select class="form-select" id="inputGroupSelect02">
+                <option selected>Choose...</option>
+                <option value="1">Morning(9:00-12:00)</option>
+                <option value="2">Evening(15:00-18:00)</option>
+                <option value="3">Night(21:00-23:00)</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect02">
+                <b>Teaching Experience</b>
+            </label>
+            <select class="form-select" id="inputGroupSelect02">
+                <option selected>Choose...</option>
+                <option value="1">No Experience</option>
+                <option value="2"> Up to 2 years</option>
+                <option value="3">More than 2 years</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect02">
+                <b>Course Pricing</b>
+            </label>
+            <select class="form-select" id="inputGroupSelect02">
+                <option selected>Choose...</option>
+                <option value="1">2K(45 mins)</option>
+                <option value="2">3K(60 mins)</option>
+                <option value="3">4k(90 mins)</option>
+            </select>
+        </div>
+       
+        <input type="password" placeholder="Password" required>
+        <input class="hide" type="password" placeholder="Confirm pasword" required>
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+</body>
+
+</html>

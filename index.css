@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    background-color:white;
+}
+
+#moving {
+    color: #811f3e
+}
+
+.firstpage {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/final.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container1 {
+    padding: 10px 10%;
+    color: black;
+
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.logo {
+    font-size: 40px;
+
+}
+
+.logo span {
+    color: red;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    bottom: -6px;
+    position: absolute;
+    background-color: rgb(30, 86, 169);
+    left: 0;
+    transition: 0.4;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+nav ul li a button:hover::after {
+    width: 0%;
+}
+
+
+.about{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about h1,h2,h3{
+    font-family: Arial, Helvetica, sans-serif;
+        color: rgb(16, 4, 4);
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 50px;
+}
+
+.about h2{
+    font-size: 35px;
+    color: rgb(255, 0, 119);
+}
+.about h3{
+    font-size: 25px;
+    color: rgb(80, 80, 124);
+}
+.about p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 50vh;
+}
+
+.social {
+    flex-basis: 35%;
+}
+
+.social h1 {
+    font-size: 40px;
+}
+
+.social p {
+    margin-top: 30px;
+}
+
+.social p i {
+    color: red;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+
+.social-icon {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.social-icon a {
+    font-size: 30px;
+    text-decoration: none;
+    transition: transform 0.5s;
+}
+
+.social-icon a:hover {
+    color: red;
+    transform: translateY(-6px);
+
+}
+
+
+
+
+
+form {
+    width: 100%;
+}
+
+
+
+.btn2 {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.links {
+    transition: transform 0.5s;
+}
+
+.links:hover {
+    transform: scale(1.1);
+
+
+}
+

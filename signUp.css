@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 3px 6px 9px rebeccapurple;
+    margin: 30px;
+
+
+
+}
+
+h1 {
+    margin: 15px;
+
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 8%;
+    border-color: beige;
+
+
+}
+
+button {
+    border-radius: 20%;
+    margin-top: 20px;
+    padding: 3px 10px;
+    background-color: bisque;
+
+
+
+
+}
+
+button:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+
+
+form div{
+    margin-top: 10px;
+  
+}
+form div label{
+    text-align: left;
+}
